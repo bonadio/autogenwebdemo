@@ -40,7 +40,7 @@ INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
 
 2. **Configure frontend**
 
-Open a new terminal and go to the react-frontend folder (you need to have nodejs installed)
+Open a new terminal and go to the react-frontend folder (you need to have nodejs installed and npm >= v14 )
 ```
 cd autogenwebdemo/react-frontend
 npm install
