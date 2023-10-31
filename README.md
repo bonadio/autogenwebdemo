@@ -63,6 +63,9 @@ Send the following messages:
 <- The status of your order with order number 222 and customer number 333 is "delivered". Is there anything else I can assist you with?
 ```
 
+4. **Groupchat** if you want to use Groupchat take a look at autogen_group_chat.py
+
+
 ![chat interface](/chat.png "Chat")
 
 Have fun!

@@ -7,8 +7,6 @@ except ImportError:
     def colored(x, *args, **kwargs):
         return x
 
-
-
 class UserProxyWebAgent(autogen.UserProxyAgent):
     def __init__(self, *args, **kwargs):
         super(UserProxyWebAgent, self).__init__(*args, **kwargs)
