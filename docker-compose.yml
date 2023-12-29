@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./react-frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    env_file:
+      - ./react-frontend/.env
+    volumes:
+      - ./react-frontend/src:/app/src
+      - /app/node_modules
+    environment:
+      - TEST_ENV=development
+      
+  backend:
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+    volumes:
+    - ./backend/src:/app/src

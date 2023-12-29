@@ -1,5 +1,5 @@
 import autogen
-from user_proxy_webagent import UserProxyWebAgent
+from .user_proxy_webagent import UserProxyWebAgent
 import asyncio
 
 config_list = [
